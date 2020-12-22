@@ -1,0 +1,6 @@
+<launch>
+  <node name="node1" pkg="project12" type="talker" output="screen"/>
+  <node name="node2" pkg="project12" type="talker" output="screen"/>
+  <node name="node3" pkg="project12" type="listener" output="screen"/>
+</launch>
+
